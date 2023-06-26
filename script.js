@@ -32,7 +32,7 @@ async function fetchApi() {
         <h5 class="card-title ">CAPITAL : ${countrycapital}</h5>
         <h5 class="card-title ">REGION : ${countryregion}</h5>
         <h5 class="card-title "> COUNTRYCODE : ${countrycode}</h5>
-        <button type="button" id="temp-btn" class="btn btn-secondary" onclick=openWeather(${latitude},${longitude})>Click for weather</button>
+        <button type="button" id="temp-btn" class="btn btn-primary" onclick=openWeather(${latitude},${longitude})>Click for weather</button>
      
       </div>
       </div>
