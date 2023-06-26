@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(75, 72, 72);
+}
+
+nav {
+    text-align: center;
+    color: white;
+    border: 1px solid whitesmoke;
+    height: 2cm;
+    width: 5cm;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+
+#footer {
+    text-align: center;
+    padding-top: 9px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 56, 56);
+    position: fixed;
+    right: 0;
+    padding: 5px;
+}
+
+.card-group {
+    margin: 7px;
+    box-shadow: 4px 3px 5px lightslategray;
+}
+
+#flag-img {
+    width: 100%;
+    height: 6cm;
+}
+
+.card-header {
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.card-title {
+    font-weight: bolder;
+    font-size: 1rem;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.text-center{
+    color: azure;
+}
+
+.card-body {
+    background-color: lightgray;
+}
+
+#temp-btn {
+    position: relative;
+    left: 70px;
+    margin-bottom: 5px;
+}
